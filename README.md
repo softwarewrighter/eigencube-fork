@@ -1,3 +1,22 @@
+# A fork, with X_eTaL demos
+
+This is a fork of [smolkaj/eigencube](https://github.com/smolkaj/eigencube),
+Steffen Smolka's Rubik's cube solver in linear algebra, MIT licensed.
+**No code here has been changed.** The solver has been ported to
+X_eTaL, an array language, and the cube shown in X_eTaL's demo sites:
+
+| Demo | What it is |
+| --- | --- |
+| [Eigencube, live in the browser](https://softwarewrighter.github.io/X_eTaL-demos/eigencube/) | The cube as 26 rotation matrices in X_eTaL: turn the faces, scramble, solve, and step through the solution; every turn of a batch of cubes is two matrix products |
+| [A Rubik's cube of voxels](https://softwarewrighter.github.io/X_eTaL-extensions/#scene-voxels-rubik-turn) | A cube in 3D in X_eTaL's native scene window, a face turning as a plane, recorded (not yet driven by the eigencube solver) |
+
+The port's program, documentation and tests are in
+[X_eTaL-demos](https://github.com/softwarewrighter/X_eTaL-demos/tree/main/demos/eigencube).
+
+---
+
+## Original README
+
 <p align="center">
   <img src="img/logo.svg" alt="Eigencube logo: a cube whose fixed centers keep their colors, with the rotation axis rising from the top center" width="160">
 </p>
