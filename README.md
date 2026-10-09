@@ -8,10 +8,12 @@ X_eTaL, an array language, and the cube shown in X_eTaL's demo sites:
 | Demo | What it is |
 | --- | --- |
 | [Eigencube, live in the browser](https://softwarewrighter.github.io/X_eTaL-demos/eigencube/) | The cube as 26 rotation matrices in X_eTaL: turn the faces, scramble, solve, and step through the solution; every turn of a batch of cubes is two matrix products |
-| [A Rubik's cube of voxels](https://softwarewrighter.github.io/X_eTaL-extensions/#scene-voxels-rubik-turn) | A cube in 3D in X_eTaL's native scene window, a face turning as a plane, recorded (not yet driven by the eigencube solver) |
+| [The voxel cube, solved in 3D](https://softwarewrighter.github.io/X_eTaL-extensions/#scene-voxels-rubik-solve) | The same solver driving a voxel cube in X_eTaL's native scene window: scramble, solve, step and play, each turn shown as its layer turning; [recorded](https://softwarewrighter.github.io/X_eTaL-extensions/scene/voxels-rubik-solve.webm) |
 
-The port's program, documentation and tests are in
-[X_eTaL-demos](https://github.com/softwarewrighter/X_eTaL-demos/tree/main/demos/eigencube).
+The solver itself is the
+[Eigencube library](https://github.com/softwarewrighter/X_eTaL-libraries/tree/main/libs/Eigencube)
+of X_eTaL-libraries, with its documentation and tests; both demos
+import it.
 
 ---
 
